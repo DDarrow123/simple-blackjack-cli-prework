@@ -75,6 +75,8 @@ end
 def runner
 welcome
 
-initial_round
+card_total = initial_round
+
+while
 
 end
