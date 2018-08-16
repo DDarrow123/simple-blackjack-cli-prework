@@ -77,6 +77,8 @@ welcome
 
 card_total = initial_round
 
-while
+while card_total < 21
+
+end 
 
 end
