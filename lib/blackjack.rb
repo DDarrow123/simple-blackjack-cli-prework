@@ -21,7 +21,7 @@ end
 def get_user_input
 
        answer = gets.chomp
-  
+
 end
 
 def end_game(card_total)
@@ -82,4 +82,5 @@ hit?(current_card_total)
 display_card_total(card_total)
 
 end_game(card_total)
+
 end
