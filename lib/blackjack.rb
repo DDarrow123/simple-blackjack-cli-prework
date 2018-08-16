@@ -82,6 +82,6 @@ game_total = hit?(game_total)
 display_card_total(game_total)
 end
 
-end_game(game_total )
+end_game(game_total)
 
 end
