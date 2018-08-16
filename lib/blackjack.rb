@@ -73,14 +73,15 @@ end
 #####################################################
 
 def runner
+  game_total = 0
   welcome
 
-initial_round
+ game_total += initial_round
+while game_total < 21 do
+game_total += hit?(game_total)
+display_card_total(game_total)
+end
 
-hit?(current_card_total)
-
-display_card_total(card_total)
-
-end_game(card_total)
+end_game(game_total )
 
 end
