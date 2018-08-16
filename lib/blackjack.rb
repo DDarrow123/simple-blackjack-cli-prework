@@ -19,12 +19,9 @@ def prompt_user
 end
 
 def get_user_input
-  #loop do
-       #puts ""
-       answer = gets.chomp
-       #break if answer == ""
-   #end
 
+       answer = gets.chomp
+  
 end
 
 def end_game(card_total)
